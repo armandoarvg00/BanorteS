@@ -1,0 +1,157 @@
+@media(min-width: 768px) {
+    .logo{
+        width: 250px !important;
+    }
+    .imagen{
+        margin-top: 2px !important;
+        width: 230px !important;
+    }
+    .texto{
+        font-size: 17px !important;
+        font-weight: bold;
+        margin-left: 40px !important;
+    }
+    .temporizador{
+        font-size: 18px !important;
+        font-weight: bold;
+        left: 60% !important;
+    }
+    .marcado p{
+        font-size: 23px;
+        color: white;
+        margin-left: 30% !important;
+    }
+    .imagen_slider{
+        width: 100% !important;
+        height: 332px !important;
+    }
+    .section{
+        top:835px !important;
+        width: 100%;
+        height: 585px !important;
+        text-align: center;
+    }
+
+    .iconos{ 
+        /*background-color: tomato;*/
+        width: 30% !important;
+   
+    }
+}
+@media(min-width:1024px){
+    
+    .cabecera{
+        position: relative;
+        background-image: url('../img/header.jpg');
+        background-color: #e70026;
+         position: relative;
+         top: 0;
+         left: 0;
+         width: 100%;
+         height: 45px !important;
+         float: left;
+         z-index: 100;
+     }
+     .cabecera.parte{
+        display: none !important;
+    }
+    .cabecera.parte2{
+        position: relative;
+        width: 100%;
+        height: 40px;
+    }
+    .logo{
+        position: absolute;
+        width: 200px;
+        height: 35px;
+        margin-left: 30px;
+    }
+    .imagen{
+        position: absolute;
+        margin-top: 10px !important;
+        margin-left: 20px;
+        left: 35% !important;
+        width: 160px !important;
+        height: 40px !important;
+    }
+    .texto{
+        color: white;
+        font-size: 15px;
+        position: absolute;
+        left:50% !important;
+        margin-top: 10px !important;
+        margin-left: 20px ;
+    }
+    .temporizador{
+        color:white;
+        font-size: 15px;
+        position: absolute;
+        left: 80% !important;
+        margin-top: 0px !important;
+    }
+    .main{
+        background-image: url('../img/img_principal.jpg');
+        margin-top: 45px !important;
+        background-repeat: no-repeat;
+        background-size:cover;
+        height: 430px !important;
+    }
+    .main .marcado{
+        display: flex;
+        font-weight: bold;
+        align-items: center;
+        position: relative;
+       /* background-color: #000;*/
+       width:55% !important;
+       left: 43%;
+    }
+    .form-data{
+       /* background-color: black;*/
+        width:48% !important;
+        left: 52%;
+    }
+    .form-data .datos2{
+        float: left;
+        width: 45%;
+        /*background-color: blue;*/
+        margin: 1px;
+    }
+    .imagen_slider{
+       display: none !important;
+    }
+    .iconos{ 
+       /* background-color: tomato;*/
+        width: 18% !important;
+        height: auto;
+        margin: 1% 1% 1% 1%;
+        padding: 2% 1% 2% 1%;
+    }
+    .text{
+        width: 90% !important;
+        font-size: 14px !important;
+        font-weight: 20px !important;
+        padding: 8px !important;
+    }
+    .enviar{
+        font-size:17px !important;
+        font-weight: bold;
+        border-radius: 6px;
+        margin-top: 26px;
+        color: white;
+        padding: 10px 20px 9px 20px;
+        width: auto;
+        border:none;
+        background-color: #908e8f;
+    }
+    .section{
+        /*background-color: thistle;*/
+        position: absolute;
+        top:460px !important;
+        width: 100%;
+        height: auto!important;
+        text-align: center;
+    }
+    .footer{
+        float: left !important;
+    }
+}

@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100;300&family=Noto+Sans+JP&family=Orelega+One&family=Roboto:wght@300;400&display=swap');
+@import url('responsive.css');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+    
+}
+body{
+    font-family: 'Noto Sans JP', sans-serif;   
+    font-size: 12px;
+}
+.principal{
+    width: 100%;
+    height: 100vh;
+}
+/*Cabecera principal*/
+.cabecera{
+   /* background-image: url('../img/header.jpg');*/
+    background-color: #e70026;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90px;
+    float: left;
+    z-index: 100;
+}
+.cabecera.parte{
+    position: relative;
+    width: 100%;
+    height: 40px;
+}
+.cabecera.parte2{
+    display: none;
+}
+.logo{
+    position: absolute;
+    width: 200px;
+    height: 35px;
+    margin-left: 30px;
+}
+.logo img{
+    width: 100%;
+}
+.imagen{
+    position: absolute;
+    margin-top: 7px;
+    margin-left: 20px;
+    left: 55%;
+    width: 148px;
+    height: 35px;
+}
+.imagen img{
+    width: 100%;
+}
+.texto{
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.temporizador{
+    color:white;
+    font-size: 15px;
+    position: absolute;
+    left: 65%;
+    margin-top: 40px;
+}
+.temporizador.oculta{
+    display: none;
+}
+#cuenta{
+    margin-top: 10px;
+    display: flex;
+}
+/*Fin header*/
+.main{
+    background-color: #790100;
+    position: absolute;
+    margin-top: 90px;
+    width: 100%;
+    height: 575px;
+}
+.main .marcado{
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+    position: relative;
+   /* background-color: #000;*/
+    width: 100%;
+    height: 73px;
+    
+}
+.marcado p{
+    font-size: 23px;
+    color: white;
+    margin-left: 5%;
+}
+.text{
+    float: left;
+    width: 95%;
+    margin-left: 5%;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 12px;
+    font-weight: 400;
+    color: #000;
+    padding: 13px;
+    border: none;
+    outline: none;
+    border: .5px double transparent;
+}
+input::placeholder {
+   /* font-weight: bold;*/
+    color: 000;
+    font-size: 1.2em;
+  }
+  .form-data{
+    position: relative;
+    width: 100%;
+    height: 330px;
+    text-align: center;
+  }
+  .form-data .datos2{
+    float: left;
+    width: 45%;
+   /* background-color: blue;*/
+    margin-left: 10px;
+}
+.enviar{
+    font-size:20px;
+    font-weight: bold;
+    border-radius: 6px;
+    margin-top: 26px;
+    color: white;
+    padding: 10px 20px 9px 20px;
+    width: auto;
+    border:none;
+    background-color: #908e8f;
+}
+.enviar:hover{
+    background-color: #e41a39 ;
+
+}
+.imagen_slider{
+    background-image: url('../img/img_principal768.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%;
+    height: 170px;
+}
+/*Fin Main*/
+/*section*/
+.section{
+   /* background-color: thistle;*/
+    position: absolute;
+    top:675px;
+    width: 100%;
+    height: 735px;
+    text-align: center;
+}
+.iconos{ 
+    float: left;
+    /*background-color: tomato;*/
+    width: 48%;
+    height: auto;
+    margin: 1% 1% 1% 1%;
+    padding: 2% 1% 2% 1%;
+}
+.iconos:hover{
+    filter: grayscale(100%);
+    cursor: pointer
+}
+.iconos img{
+    width: 90%;
+}
+.section span::before{
+    content: '\A'; white-space: pre;
+}
+.section span{
+    color:black;
+    font-size: 18px;
+    font-weight: bold;
+}
+.section a{
+    text-decoration: none;
+}
+.titulosm{
+    margin-top: 20px;
+    color: #c11b37;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.titulosms{
+    color: #c11b37;
+    font-weight: bold;
+    text-align: center;
+}
+.datos{
+    margin: 0px;
+}
+.mapa{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.text2{
+    float: left;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 12px;
+    font-weight: 400;
+    color: #000;
+    padding: 13px;
+    border: 1px solid #ccc;   
+     /*outline: none;*/
+}
+
+/*section*/
+/*Footer*/
+.principal .footer{
+    width: 100%;
+    height: 45px;
+    text-align: center;
+    background-color: #5e5e5e;
+    color: white;
+    position: fixed;
+    bottom: 0px;
+    padding: 10px;
+}
+.footer .icono_empresa{
+   /* background-color:tomato;*/
+   font-size: 14px;
+    float: left;
+    width: 100%;
+    margin-left: 0%;
+}
+
+
+label {
+    font-weight: bold;
+    position: relative;
+    margin: 0px;
+}
+label span {
+    font-size: 15px;
+} 
+label.error {
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    margin-top: 0px;
+}
